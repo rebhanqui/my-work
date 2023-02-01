@@ -1,4 +1,5 @@
 # program the multiplies and outputs the answer
+# lab for week2 pands
 #author Rebecca Hannah Quinn
 
 answer = 111 * 555
