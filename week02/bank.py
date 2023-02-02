@@ -27,11 +27,13 @@ totalLodgement = (bankIn + bankIn2)
 
 # ref4: https://stackabuse.com/format-number-as-currency-string-in-python/ AUTH: DANIEL PIMEH
 # import babel.numbers
-# euroCents = (totalLodgement)
 # babel.numbers.format_currency(euroCents, "EUR", locale='en_US')
 
+# converts input to euro and cents
+euroCents = int(totalLodgement,)/100
+
 #euro and cent amount output to user
-print(f"You have lodged {euroCents}\nThank You!")
+print(f"You have lodged €{euroCents}\nThank You!")
 
 # LOCALE CHECK - GO BACK LATER
 #avail_loc = babel.localedata.locale_identifiers()
