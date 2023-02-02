@@ -1,5 +1,6 @@
 # bank.py 
 #prompts user to input 2 amounts, adds both and prints output to user
+# Author: Rebecca Hannah Quinn
 
 #input 1
 bankIn = int(input("Lodgement Amount 1: "))
