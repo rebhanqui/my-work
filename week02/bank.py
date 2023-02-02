@@ -2,9 +2,6 @@
 #prompts user to input 2 amounts, adds both and prints output to user
 
 #input 1
-from math import ceil
-
-
 bankIn = int(input("Lodgement Amount 1: "))
 
 #input 2
