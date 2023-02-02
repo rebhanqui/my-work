@@ -17,4 +17,3 @@ euroCents = (totalLodgement/100)
 #euro and cent amount output to user with trailing zero kept so cent amounts with '0' in them stay visible
 # '%.2f' ref5: https://stackoverflow.com/questions/15238120/keep-trailing-zeroes-in-python USR: eyquem
 print(f"You have lodged €{('%.2f' % euroCents)}\nThank You!")
-
