@@ -5,4 +5,4 @@
 import math
 
 convert_pennies = float(input("How much do you have? "))
-print(f"You have {abs(convert_pennies * 100)} total in cents")
+print(f"You have {abs(int(convert_pennies * 100))} total in cents")
