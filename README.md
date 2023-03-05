@@ -1,6 +1,6 @@
 # my-work
 
-Collection of labs throughout the weeks learning to program and doing the assigned tasks - **does not include the main weekly tasks**
+Collection of labs throughout the weeks learning to program and doing the assigned tasks - [does not include the main weekly tasks]
 
 ---
 
@@ -49,3 +49,6 @@ Includes evens, grade, guess1 (guess2 combined in same file) and isEven. Creatin
 10. Week Ten
 
 ---
+
+## References
+[does not include the main weekly tasks]: https://github.com/rebhanqui/pands-problem-sheet 
