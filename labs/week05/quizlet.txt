@@ -5,14 +5,14 @@
 #c: bool
 #d: string
 #e: list
-#f: dictionary
+#f: tuple
 #g: string
-#h: tuple
-#i: list with tuple
+#h: dict
+#i: list 
 #j: bool
-#k: var
-#l: selector
-#m: variable
-#n:
-#o:
-#p:
+#k: dict key and value 
+#l: key
+#m: dict
+#n: key
+#o: key - value 1
+#p: key - value str
