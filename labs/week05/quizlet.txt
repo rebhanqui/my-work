@@ -11,8 +11,8 @@
 #i: list 
 #j: bool
 #k: dict key and value 
-#l: key
+#l: str
 #m: dict
-#n: key
-#o: key - value 1
-#p: key - value str
+#n: list
+#o: int
+#p: undefined
