@@ -1,14 +1,27 @@
-information = {}
-name = input("Please enter your name: ")
-# prints ('Reb', {'PANDS': '100'})
-studentinformation = name, information
+#Author: Rebecca Quinn
 
-for i in range(1):
-    module = input("Enter module name: ")
-    grade = input("Enter final grade: ")
+#READS IN USERS DETAILS
 
-    information[module] = (grade)
+while True:
+    example = str(input("Name: ")), {input("Module here: "):input("Grade here: ")}
+#prints results in for loop unless nothing entered
+#for key in example:
+    #print(key)
+#else:
+    #print(f"Please enter your information to continue: {example}")
 
-print(studentinformation)
+    if example == ("", {"":""}):    
+        print("Please press enter to continue and enter your information ")
+        break
+    else:
+        print(example)
 
+
+
+
+
+
+
+
+#ref: https://www.youtube.com/watch?v=Hgcd86lQc70
 #ref: https://bobbyhadz.com/blog/python-add-user-input-to-dictionary
