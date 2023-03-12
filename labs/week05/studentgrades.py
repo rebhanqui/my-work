@@ -1,18 +1,14 @@
+information = {}
+name = input("Please enter your name: ")
+# prints ('Reb', {'PANDS': '100'})
+studentinformation = name, information
 
+for i in range(1):
+    module = input("Enter module name: ")
+    grade = input("Enter final grade: ")
 
-studentName = str(input("What is your name? "))
-module = str(input("Please enter your module code "))
-grade = int(input("What grade did you receive? "))
+    information[module] = (grade)
 
-student = {
-    "name" : "{studentName}",
-    "moduleDetails": [
-    {
-        "courseName" : "{module}"
-        "courseResult" : "{grade}"
-    }
-    ]
-}
+print(studentinformation)
 
-studentResult = student.pop
-print(studentResult)
+#ref: https://bobbyhadz.com/blog/python-add-user-input-to-dictionary
