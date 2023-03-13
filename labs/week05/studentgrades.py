@@ -17,7 +17,7 @@ while True:
         print(example)
 
 #If you want to go a step further, 
-#read in multiple students (until the student_name is blank.
+#read in multiple students (until the student_name is blank.)
 
 
 
