@@ -13,7 +13,7 @@ def displayMenu():
 
 students = []
 
-#adds student name and modules to diction and into list of students and modules
+#adds student name and modules to dict and into list of students and modules
 def doAdd(students):
     currentStudent = {}
     currentStudent["name"] = input("Please enter your name: ")
